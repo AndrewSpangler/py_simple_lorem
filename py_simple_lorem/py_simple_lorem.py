@@ -7,7 +7,9 @@ Simple, compressed Lorem Ipsum generator. Get a different output each time.
 
 __author__ = "Andrew Spangler"
 __copyright__ = "Copyright 2022, Andrew Spangler"
-__description__ = "A short project description."
+__description__ = (
+    "Simple, compressed Lorem Ipsum generator. Get a different output each time."
+)
 __credits__ = ["Andrew Spangler"]
 __license__ = "GPLv3+"
 __maintainer__ = "Andrew Spangler"
@@ -56,10 +58,18 @@ def lorem(count=1):
 
 
 if __name__ == "__main__":
-    import sys
+    import sys, argparse
 
     try:
-        count = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+        if len(sys.argv) > 1:
+            parser = argparse.ArgumentParser()
+            parser.add_argument(
+                "count", nargs="?", help="Number of paragraphs to return.", type=int
+            )
+            args = parser.parse_args()
+            count = args.count
+        else:
+            count = 1
     except ValueError:
         print("Argument must be an integer")
         sys.exit(1)

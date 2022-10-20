@@ -2,11 +2,7 @@
 dist/
 build/
 token.txt
-*PySimpleBarcode.egg-info
+*.egg-info
 Pipfile
 Pipfile.lock
 py
-py_simple_lorem.egg-info/top_level.txt
-py_simple_lorem.egg-info/PKG-INFO
-py_simple_lorem.egg-info/dependency_links.txt
-py_simple_lorem.egg-info/SOURCES.txt
