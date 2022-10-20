@@ -60,6 +60,13 @@ if __name__ == "__main__":
 
     try:
         count = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    except:
-        raise ValueError("Argument must be an integer")
-    sys.exit(lorem(count))
+    except ValueError:
+        print("Argument must be an integer")
+        sys.exit(1)
+
+    try:
+        print(lorem(count))
+    except Exception as e:
+        sys.exit(1)
+
+    sys.exit(0)

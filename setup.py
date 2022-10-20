@@ -23,12 +23,12 @@ SETUPDATA = {
     },
     "project": {
         "name": name,
-        "author": author,
-        "url": url,
+        # "author": author,
+        # "url": url,
         "version": version,
         "description": description,
-        "maintainter": maintainer,
-        "copyright": "Copyright 2022, Andrew Spangler",
+        # "maintainter": maintainer,
+        # "copyright": "Copyright 2022, Andrew Spangler",
         "readme": "README.md",
         "requires-python": ">=3.8",
         "classifiers": [
@@ -47,7 +47,7 @@ SETUPDATA = {
     },
     "project.urls": {
         '"Homepage"': url,
-        '"Bug Tracker"': url + "/issues",
+        '"Bug Tracker"': url + "issues",
     },
 }
 
@@ -82,7 +82,7 @@ if __name__ == "__main__":
         name=name,
         # author=author,
         # version=version,
-        author_email=email,
+        # author_email=email,
         # url=url,
         # description=description,
         long_description=read("README.md"),

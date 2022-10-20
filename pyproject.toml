@@ -3,18 +3,15 @@ requires = ['setuptools>=61.0']
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "CHANGE ME"
-author = "Andrew Spangler"
-version = "0.0.0"
-description = "A short project description."
-maintainter = "Andrew Spangler"
-copyright = "Copyright 2022, Andrew Spangler"
+name = "py_simple_lorem"
+version = "0.0.1"
+description = "Simple, compressed Lorem Ipsum generator. Get a different output each time."
 readme = "README.md"
 requires-python = ">=3.8"
-classifiers = ['Programming Language :: Python :: 3', 'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)', 'Operating System :: OS Independent']
+classifiers = ['Development Status :: 1 - Planning', 'Environment :: Console', 'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)', 'Natural Language :: English', 'Operating System :: OS Independent', 'Programming Language :: Python :: 3', 'Programming Language :: Python :: 3.8', 'Programming Language :: Python :: 3.9', 'Programming Language :: Python :: 3.10']
 dependencies = []
 keywords = []
 
 [project.urls]
-"Homepage" = "https://github.com/AndrewSpangler/CHANGE ME/"
-"Bug Tracker" = "https://github.com/AndrewSpangler/CHANGE ME//issues"
+"Homepage" = "https://github.com/AndrewSpangler/py_simple_lorem/"
+"Bug Tracker" = "https://github.com/AndrewSpangler/py_simple_lorem/issues"
