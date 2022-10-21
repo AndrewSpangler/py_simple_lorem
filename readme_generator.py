@@ -22,7 +22,7 @@ from py_simple_lorem.py and call `lorem(COUNT)` to get \
 a string containing *COUNT* number of paragraphs."""
 
 images = {
-    "lorem": "https://raw.githubusercontent.com/AndrewSpangler/py_simple_lorem/main/lorem.png?token=GHSAT0AAAAAAB2FJULABRGTLEV6KYXQVZVMY2QVMAA",
+    "lorem": "https://raw.githubusercontent.com/AndrewSpangler/py_simple_lorem/main/lorem.png",
 }
 
 
